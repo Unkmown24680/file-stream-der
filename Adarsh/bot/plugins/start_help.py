@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
+                photo="https://graph.org/file/93dfaabe16ef98af861e9.jpg",
                 caption="<i>Only SUBSCRIBERS of my channel can use..\n\n Join now to use me🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -76,7 +76,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
+        photo ="https://graph.org/file/85afa053b7342fa83bc93.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am File to Link Generator Bot with Channel support.\n\nSend me any file & get a direct download link📥 & streamable link!🖥️ \n\nShare Me to u r people who dont know Me😁',
         reply_markup=buttonz)
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/0bb49623bb75e3035b331.jpg",
+                photo="https://graph.org/file/93dfaabe16ef98af861e9.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
